@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+    text-align: center;
+    padding: 1rem;
+    background-color: #cfd4d8;
+}
+
+#header {
+    padding: 2rem;
+    font-size: 3rem;
+    color: #21213f;
+}
+
+#instructions {
+    padding: .5rem;
+    color: #21213f;
+}
+
+#grid-size {
+    margin-top: 10px;
+    color: #21213f;
+}
+
+.grid {
+    display: grid;
+    border: 2px solid #21213f;;
+    min-height: 600px;
+    max-width: 600px;
+    margin: 1rem auto;
+    background-color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #21213f;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    margin: 1rem;
+    font-size: 16px;
+}
